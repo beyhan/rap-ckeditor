@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Sample - CKEditor</title>
+	<script type="text/javascript" src="/resources/ckeditor/ckeditor.js"></script>
+	<script type="text/javascript" src="/resources/ckeditorHelper.js"></script>
+</head>
+<body>
+	<form method="post">
+		<p>
+			My Editor:<br />
+			<textarea name="editor1">&lt;p&gt;Initial value.&lt;/p&gt;</textarea>
+			<script type="text/javascript">
+				CKEDITOR.replace( 'editor1',
+							    {
+							         toolbar : 'Full'
+
+							    });
+
+			</script>
+		</p>
+	</form>
+</body>
+</html>

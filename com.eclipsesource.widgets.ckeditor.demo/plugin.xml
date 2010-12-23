@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.rap.ui.entrypoint">
+      <entrypoint
+            class="com.eclipsesource.widgets.ckeditor.demo.CkEditorDemo"
+            id="org.eclipse.rap.widget.ckedit.demo.entrypoint"
+            parameter="ckeditor">
+      </entrypoint>
+   </extension>
+
+</plugin>
