@@ -1,0 +1,15 @@
+This repository contains two bundles:
+
+- com.eclipsesource.widgets.ckeditor
+
+This is a CkEditor Widget for RAP.
+To run it in RAP, you will need RAP 1.4M4 or later.
+
+- com.eclipsesource.widgets.ckeditor.demo
+
+A demo application for the widget.
+Contains a launch configurations.
+
+=== License ===
+
+All classes are published under the terms of the Eclipse Public License v1.0
